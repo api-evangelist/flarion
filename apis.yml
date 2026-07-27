@@ -1,8 +1,16 @@
 aid: flarion
 name: Flarion
-description: 'Flarion is a company surfaced as a portfolio company of sierra-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: data. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Flarion is a data-processing acceleration company that speeds up distributed
+  compute engines — Apache Spark, Hadoop, and Ray — without code or infrastructure
+  changes. It ships an Arrow-native, DataFusion/Polars-based execution engine written
+  in Rust that installs as a plugin in about six minutes, plus intelligent workload
+  caching (query, data-block, and buffer caching) and a performance-monitoring platform
+  for job metrics, resource tracking, anomaly detection, and failure prevention. Flarion
+  runs on-premises or on Databricks, AWS EMR, GCP Dataproc, Azure HDInsight, and Anyscale,
+  with an agentless architecture that requires no access to customer data, delivering
+  roughly 3x performance and 60% cost savings. Flarion is a portfolio company of Sierra
+  Ventures. The company exposes a product console and a legal/SLA surface but does
+  not currently publish a public developer API, SDKs, or API documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/flarion/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,30 @@ x-backed-by:
 - sierra-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/675a70c079f64e9f2bebcfc8/67e3a9cb792327fd065fdf99_og.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Data
+- Data Processing
+- Apache Spark
+- Big Data
+- Performance
+- Analytics
+- Rust
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,24 @@ maintainers:
 common:
 - type: Website
   url: https://flarion.io/
+- type: Blog
+  url: https://flarion.io/blog
+- type: Pricing
+  url: https://flarion.io/pricing
+- type: Support
+  url: https://flarion.io/contact-us
+- type: Login
+  url: https://console.flarion.io/
+- type: TermsOfService
+  url: https://flarion.io/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://flarion.io/legal/privacy
+- type: SLA
+  url: https://flarion.io/legal/service-level-agreement
+- type: DomainSecurity
+  url: security/flarion-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
